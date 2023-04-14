@@ -1,0 +1,7 @@
+.anu{
+  position: absolute;
+  top: -2rem;
+  right:0;
+  filter: grayscale(40%);
+  opacity: 35%;
+}
