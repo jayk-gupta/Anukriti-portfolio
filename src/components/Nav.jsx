@@ -11,7 +11,7 @@ const Nav = () => {
         {/* <!-- ----logo ------> */}
         <a>
           <img
-            src="./public/static/images/ar-high-resolution-logo-color-on-transparent-background.png"
+            src="https://github.com/jayk-gupta/Anukriti-portfolio/blob/main/src/assets/Images/ar-high-resolution-logo-color-on-transparent-background.png?raw=true"
             className="w-10 hover:hue-rotate-60 md:w-12 xl:w-16"
             alt="logo"
             id="logo"
