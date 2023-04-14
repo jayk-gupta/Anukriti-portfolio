@@ -12,10 +12,13 @@ import MobileNav from "./components/MobileNav";
 import { motion, useScroll } from "framer-motion";
 
 function App() {
+  
         const { scrollYProgress } = useScroll(); 
   return (
     <div>
-      <motion.div style={{ scaleX: scrollYProgress }} className="z-[1000]"> </motion.div>
+      <motion.div style={{ scaleX: scrollYProgress }} className="z-[1000]">
+        {" "}
+      </motion.div>
       <Nav />
       <MobileNav />
       <div className="mx-10 md:mx-24 lg:mx-40">

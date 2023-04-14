@@ -1,16 +1,22 @@
-
-
+import {motion} from 'framer-motion'
 // function
 const Nav = () => {
   return (
-    <nav
+    <motion.nav
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{
+        ease: "easeInOut",
+        duration: 2,
+        x: { duration: 1 },
+      }}
       className=" flex w-11/12 mx-auto  py-6  justify-between items-center z-50 md:w-11/12  md:py-6 md:px-0 lg:py-6 
     xl:py-6 xl:px-0 "
     >
       <div>
-        {/* <!-- ----logo ------> */}
         <a>
           <img
+            // src="./public/static/images/ar-high-resolution-logo-color-on-transparent-background.png"
             src="https://github.com/jayk-gupta/Anukriti-portfolio/blob/main/src/assets/Images/ar-high-resolution-logo-color-on-transparent-background.png?raw=true"
             className="w-10 hover:hue-rotate-60 md:w-12 xl:w-16"
             alt="logo"
@@ -57,7 +63,7 @@ const Nav = () => {
           Get in touch
         </a>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 
