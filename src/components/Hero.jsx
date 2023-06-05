@@ -17,7 +17,7 @@ const Hero = () => {
       <div id="back-ground" className="-z-50">
         <img
           className="anu -z-50 w-[30rem]  md:w-[38rem]  md:top-0 md:right-[-3rem] lg:top-[-4rem] lg:right-0 lg:w-[36rem] xl:w-[50rem]"
-          src="            "
+          src="https://user-images.githubusercontent.com/100681165/243385074-9b483ad4-e5be-4d7c-b923-9ea86c8095b9.png"
           alt=""
         />
       </div>
