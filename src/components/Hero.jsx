@@ -17,8 +17,7 @@ const Hero = () => {
       <div id="back-ground" className="-z-50">
         <img
           className="anu -z-50 w-[30rem]  md:w-[38rem]  md:top-0 md:right-[-3rem] lg:top-[-4rem] lg:right-0 lg:w-[36rem] xl:w-[50rem]"
-          // src="./src/assets/Images/jaykgupta_create_ai_avatar_of_this_image_hd_gta_5_girl_characte_ed753c59-c705-4996-a743-8c66d7150936-removebg.png"
-          src="https://github.com/jayk-gupta/Anukriti-portfolio/blob/main/src/assets/Images/jaykgupta_create_ai_avatar_of_this_image_hd_gta_5_girl_characte_ed753c59-c705-4996-a743-8c66d7150936-removebg.png?raw=true"
+          src="            "
           alt=""
         />
       </div>
